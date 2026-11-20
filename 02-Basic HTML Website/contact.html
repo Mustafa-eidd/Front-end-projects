@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags  -->
+    <title>Contact Page</title>
+    <meta name="description" content="you can contact from this page">
+</head>
+<body>
+    <h1>Contact Page</h1>
+    <form action="" method="post">
+
+        <label for="name">UserName</label>
+        <input type="text" name="name" id="name" required>
+        <br><br>
+
+        <label for="pass">Password</label>
+        <input type="password" name="password" id="pass" minlength="10" maxlength="20" required>
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+
+        <label>Gender: </label>
+        <input type="radio" value="Male" id="male" name="Gender">
+        <label for="male">Male</label>
+
+        <input type="radio" value="Female" id="female" name="Gender">
+        <label for="female">Female</label>
+        <br><br>
+
+        <textarea name="message" id="message" placeholder="Text here"></textarea>
+        <br><br>
+
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
